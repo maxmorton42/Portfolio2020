@@ -1,4 +1,5 @@
 import React from 'react';
+import Contact_Me from './components/Contact_Me'
 import Education from './components/Education';
 import Me from './components/Me';
 import Navbar from './components/Navbar/Navbar'
@@ -23,6 +24,7 @@ const App = () => {
         </Route>
         <Route path="/education" component={Education}>
         </Route>
+        <Route exact path="/contactme" component={Contact_Me} />
       </Switch>
       </Container>
     </>
