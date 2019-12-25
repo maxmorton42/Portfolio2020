@@ -1,26 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Education from './components/Education';
+import Me from './components/Me';
+import Navbar from './components/Navbar/Navbar'
+import Projects from './components/Projects';
+import Work from './components/Work';
+import { Container, } from "semantic-ui-react";
+import { Switch, Route } from "react-router-dom";
 
-function App() {
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Navbar />
+     <Container>
+      <Switch>
+        <Route exact path="/" component={Me}>
+        </Route>
+        <Route path="/projects" component={Projects}>
+        </Route>
+        <Route path="/work" component={Work}>
+        </Route>
+        <Route path="/education" component={Education}>
+        </Route>
+      </Switch>
+      </Container>
+    </>
   );
-}
+};
 
 export default App;
