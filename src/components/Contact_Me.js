@@ -4,10 +4,9 @@ import MyForm from './ContactForm/Contactform'
 const Contact_Me = () => {
   return (
     <>
-    <br />
+    <h1>Contact Me:</h1>
     <hr />
     <br />
-    <h1>Contact Me:</h1>
     <br />
     <MyForm />
     </>
