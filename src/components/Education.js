@@ -6,12 +6,12 @@ const Education = () => {
     <div>
   <h1>Education</h1>
        <ul>
-       <li>
-              <Institution> DPL Boot Camp</Institution>
+         <li>
+              <Institution> Dev Point Labs Boot Camp</Institution>
               <div>
                 <Degree>
-                Full Stack Web Development
-                </Degree>{' '}
+                Full Stack Web Development 
+                </Degree>
                 <span> &sdot; </span>
                 <span>
                 2019 to 2020
@@ -20,20 +20,19 @@ const Education = () => {
               <p>description</p>
               </li>
               <br />
-         <li>
-          <Institution>University of Utah</Institution>
-              <div>
-                <Degree>
-                Elementary Education Bachelors of Science,
-                </Degree>{' '}
-                <span> &sdot; </span>
-                <span>
-                2007 to 2013
-                </span>
-              </div>
-              <p>description</p>
-              </li>
-
+            <li>
+              <Institution>University of Utah</Institution>
+                <div>
+                  <Degree>
+                  Elementary Education Bachelors of Science, 
+                  </Degree>
+                  <span> &sdot; </span>
+                  <span>
+                  2007 to 2013
+                  </span>
+                </div>
+                <p>description</p>
+             </li>
      </ul>
   </div>
   )

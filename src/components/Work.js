@@ -25,6 +25,8 @@ const Work = () => {
               </Jobdescription>
       </li>
         <br />
+        <hr />
+        <br />
       <li> 
         <div>
          <JobTitle>Outpatient Service Specialist</JobTitle> <span>University of Utah Health</span>
@@ -41,6 +43,8 @@ const Work = () => {
                   Reconciled against daily charge reports
                 </Jobdescription>
       </li>
+      <br />
+      <hr />
       <br />
       <li> 
         <div>
