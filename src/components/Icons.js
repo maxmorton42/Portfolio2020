@@ -6,17 +6,9 @@ import facebook from './Images/facebook.png'
 import linkdin from './Images/linkdin.png'
 import styled from 'styled-components'
 
-
-
-
 const Icons = () =>(
-  
-
 <IconContainer>
-
-
   <Container>
-
     <Image
     src={facebook}
     as='a'

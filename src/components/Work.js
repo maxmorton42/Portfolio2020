@@ -2,15 +2,15 @@ import React from "react";
 import styled from 'styled-components';
 
 
-
 const Work = () => {
   return (
     <>
   <div>
   
     <h1>Work Experience</h1>
+    <hr />
     <ul>
-    <li> 
+    <Listnobull> 
         <div>
          <JobTitle>Food Distribution Specialist</JobTitle> <span>Intermountain Healthcare</span>
           <span> &sdot; </span>
@@ -26,11 +26,11 @@ const Work = () => {
                 Completing required reports and communicating with various medical units/food service areas <br />
                 Training new hires according to standards
               </Jobdescription>
-      </li>
+      </Listnobull>
         <br />
         <hr />
         <br />
-      <li> 
+      <Listnobull> 
         <div>
          <JobTitle>Outpatient Service Specialist</JobTitle> <span>University of Utah Health</span>
           <span> &sdot; </span>
@@ -45,11 +45,11 @@ const Work = () => {
                   Entered corrected and new patient data <br />
                   Reconciled against daily charge reports
                 </Jobdescription>
-      </li>
+      </Listnobull>
       <br />
       <hr />
       <br />
-      <li> 
+      <Listnobull> 
         <div>
          <JobTitle>Direct Support Professional/ Instructor/ UAP/Supervisor</JobTitle> <span>Rha Community Services</span>
           <span> &sdot; </span>
@@ -64,7 +64,7 @@ const Work = () => {
                   Executed lesson modules for small groups and individuals <br />
                   Assisted with developing job skills and creating work opportunities
                 </Jobdescription>
-      </li>
+      </Listnobull>
       
     </ul>
     </div>
@@ -73,11 +73,16 @@ const Work = () => {
 }
  const JobTitle = styled.h4`
   font-weight: bold;
+
 `
 
  const Jobdescription = styled.p`
   font-weight: bold;
   display: inline-block;
+`
+const Listnobull = styled.li`
+list-style-type: none;
+padding: 0;
 `
 
 

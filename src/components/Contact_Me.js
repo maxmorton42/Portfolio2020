@@ -7,7 +7,6 @@ const Contact_Me = () => {
     <h1>Contact Me:</h1>
     <hr />
     <br />
-    <br />
     <MyForm />
     </>
   )

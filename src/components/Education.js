@@ -5,8 +5,9 @@ const Education = () => {
   return (
     <div>
   <h1>Education</h1>
+      <hr />
        <ul>
-         <li>
+         <Listnobull>
               <Institution> Dev Point Labs Boot Camp</Institution>
               <div>
                 <Degree>
@@ -21,9 +22,9 @@ const Education = () => {
                 This full-time 12 week course is part of the University of Utah Professional Education school, and covers HTML, CSS, Ruby on Rails, SQL, JavaScript, React, Redux, and more.
                  DevPoint Labs' approach to learning combines pair programming with traditional lectures and a mix of group projects, lean methodologies, hackathons and one-on-one mentorship from instructors.
                 </p>
-              </li>
+              </Listnobull>
               <br />
-            <li>
+            <Listnobull>
               <Institution>University of Utah</Institution>
                 <div>
                   <Degree>
@@ -37,7 +38,7 @@ const Education = () => {
                 <p>The Elementary Teacher Education Program in the Urban Institute for Teacher Education at the University of Utah
                    is designed to effectively prepare teacher candidates to work with students across various age and ability levels, and from diverse cultural, linguistic, and socioeconomic backgrounds.</p>
 
-             </li>
+             </Listnobull>
      </ul>
   </div>
   )
@@ -51,6 +52,10 @@ const Institution = styled.h4`
 const Degree = styled.p`
   font-weight: bold;
   display: inline-block;
+`
+ const Listnobull = styled.li`
+ list-style-type: none;
+ padding: 0;
 `
 
 

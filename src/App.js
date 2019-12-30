@@ -13,11 +13,11 @@ import { Switch, Route } from "react-router-dom"
 
 
 
+
 const App = () => {
   return (
     <>
     <AppContainer>
-
     <Navbar />
     <Icons />
      <Container>
@@ -37,12 +37,9 @@ const App = () => {
     </>
   );
 };
-
+//  background
 const AppContainer = styled.div`
-/* background: linear-gradient(to bottom right, aliceblue, black);
-overflow: scroll;
-width: 100vw;
-height: 100vh; */
+
 border: 1px solid #000;
     background-image: url(${Img});
     overflow: scroll;
