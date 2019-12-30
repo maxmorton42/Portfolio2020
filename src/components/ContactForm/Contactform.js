@@ -18,10 +18,21 @@ export default class MyForm extends React.Component {
         method="POST"
       >
 {/* customize form */}
+        <label>Name:</label>
+        <br />
+        <input type="text" name="name" />
+        <br />
+        <br />
         <label>Email:</label>
+        <br />
         <input type="email" name="email" />
+        <br />
+        <br />
         <label>Message:</label>
-        <input type="text" name="message" />
+        <br />
+        <textarea rows="4" cols="50" name="message" ></textarea>
+        <br />
+        <br />
         {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
       </form>
@@ -47,3 +58,5 @@ export default class MyForm extends React.Component {
     xhr.send(data);
   }
 }
+
+

@@ -2,9 +2,12 @@ import React from "react";
 import styled from 'styled-components';
 
 
+
 const Work = () => {
   return (
+    <>
   <div>
+  
     <h1>Work Experience</h1>
     <ul>
     <li> 
@@ -62,8 +65,10 @@ const Work = () => {
                   Assisted with developing job skills and creating work opportunities
                 </Jobdescription>
       </li>
+      
     </ul>
     </div>
+    </>
   )
 }
  const JobTitle = styled.h4`
