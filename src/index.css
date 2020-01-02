@@ -1,10 +1,13 @@
 body #root {
   margin: 0;
-  font-family: 'Ruslan Display', cursive;
+  font-family: 'Open Sans', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Open Sans', sans-serif !important;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
